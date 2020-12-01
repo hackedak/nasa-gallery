@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(240, 236, 236);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 65.45%;
+  overflow-x:hidden
+}
+
+
+
+.App{
+  font-family: 'Cormorant', serif;
+  text-align:  center;
+  padding:0 2rem;
+  overflow-x:hidden
+}
+
+.AppHeader{
+  font-size: large;
+}
+.img-of-the-day{
+  margin-top: 1.2rem;
+}
+
+.img-of-the-day h3{
+  font-size: x-large;
+}
+.fetched-img{
+  margin-top: 1rem;
+}
+.explanation-btn button{
+  margin-top: 1rem;
+  border: 0;
+  color: rgb(41, 39, 39);
+  background-color: rgb(175, 155, 150);
+  padding: 10px 5px;
+  border-radius: 10px;
+  font-size: calc(1vh+ 1em);
+}
+.explanation-btn button:focus { 
+  outline: none;
+  background-color: rgb(138, 121, 116);
+}
+
+.buttons{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.buttons a{
+  text-decoration: none;
+  margin-top: 1rem;
+  border: 0;
+  color: rgb(41, 39, 39);
+  padding: 10px 5px;
+  border-radius: 50%;
+  font-size: calc(1vh+ 3em);
+  margin-left: 1rem;
+}
+
+.download{
+  width: 25px;
+  height: 15px;
+  margin-right: 1rem;
+}
+.explanation{
+  font-size: calc(5px + 1vw);
+  margin-top: 10px;
+  padding: 1rem;
+  border-top: 3px solid rgb(168, 168, 168);
+}
+.fetched-img img{
+  width: min(50vh,80%);
+  height: min(50vh,80%);
+}
+
+.hide{
+  display: none;
+}
