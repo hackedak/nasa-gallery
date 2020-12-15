@@ -26,7 +26,7 @@ const ImgOfDay = () => {
             <div className="buttons">
                 <Explanation explanation = {imageOfDay.explanation} copyright = {imageOfDay.copyright} />
                 <a href={imageOfDay.hdurl} target='_blank' rel="noreferrer">
-                <img className="download" src={download} alt="download-image"/>
+                <img className="download" src={download}/>
                 </a>
             </div>
         </div>    
