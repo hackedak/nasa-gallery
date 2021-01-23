@@ -13,7 +13,7 @@ const Explanation = ({explanation, copyright}) => {
             <button type='button' onClick={toggleClass}>Enlighten Me</button>
             <div className = {isActive ? "explanation" : "hide" }>
                 <p>{explanation}</p>
-                <small>Copyright &copy; 2020 Alvin Wu</small>
+                <small>Copyright &copy; 2020 {copyright}</small>
             </div>
         </div>
      );
